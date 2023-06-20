@@ -1,2 +1,23 @@
 
 /* Your CSS Code here. */
+.row {
+      display: flex;
+    }
+
+.col-sm-1 {
+	flex: 8.33%;
+	padding:5px;
+	}
+
+.col-sm-2{
+	flex: 16.66%;
+	padding:5px;
+}
+.col-sm-3{
+	flex:33.33%;
+	padding:5px;
+}
+.col-sm-4{
+	flex:100%;
+	padding:5px;
+}
